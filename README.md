@@ -2,7 +2,7 @@
 
 This is a repository that contains examples used in learning Go for a CourseCareers course. 
 
-The GO-API-TUTORIAL is more of a mini-project that serves as a rudimentary library/bookstore system. There are few components I added to get a bit more familiar with the language. 
+The GO-API-TUTORIAL is more of a mini-project that serves as a rudimentary library/bookstore system. There are a few components I added to get a bit more familiar with the language. 
 In particular, I added a validator and error handler so there was a dedicated component for each of those case. I added manual test files for regression testing. Still need to add
 unit tests and integration tests.
 
