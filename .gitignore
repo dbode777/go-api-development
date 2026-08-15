@@ -1,1 +1,42 @@
+# Binaries / build outputs
+/bin/
+ /build/
+ /dist/
+ *.exe
+ *.exe~
+ *.dll
+ *.so
+ *.dylib
+ *.test
+
+# Go workspace / cache
+*.out
+*.log
+/go.work
+/go.work.sum
+/.cache/
+ /vendor/   # only if you intentionally do not commit dependencies
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+
+# Coverage / profiling
 *coverage.out
+*coverage.html
+profile.out
+*.coverprofile
+
+# Temporary files
+tmp/
+temp/
+*.tmp
